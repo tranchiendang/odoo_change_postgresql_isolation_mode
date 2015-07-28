@@ -1,0 +1,10 @@
+Adding this line to odoo configuration file
+
+isolation_mode = 4
+
+with 
+ISOLATION_LEVEL_AUTOCOMMIT          = 0
+ISOLATION_LEVEL_READ_UNCOMMITTED    = 4
+ISOLATION_LEVEL_READ_COMMITTED      = 1
+ISOLATION_LEVEL_REPEATABLE_READ     = 2
+ISOLATION_LEVEL_SERIALIZABLE        = 3
